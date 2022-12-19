@@ -1,0 +1,195 @@
+:root {
+	--verde-principal: #03bb85;
+	--verde-secundario: #038554;
+	--verde-complementario: #68ddbd;
+	--negro-background: #101010;
+	--negro-complementario: #050505;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	background-color: var(--negro-background);
+	color: var(--verde-principal);
+}
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	line-height: 1.5;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	/* background-color: transparent; */
+	padding: 1rem;
+	font-weight: 600;
+	transition: all ease 0.3s;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 120rem;
+	margin: 0 auto;
+}
+
+div [id] {
+	scroll-margin-top: 8rem;
+}
+
+/* Navegacion */
+
+.contenedor__header {
+	max-width: 100%;
+}
+.navegacion {
+	display: flex;
+	justify-content: space-around;
+	padding: 2rem 0;
+	background-color: var(--negro-complementario);
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+.navegacion__link:hover {
+	color: var(--negro-complementario);
+	background-color: var(--verde-principal);
+	border-radius: 1rem;
+}
+
+.navegacion__link--cv {
+	background-color: var(--verde-principal);
+	color: var(--negro-complementario);
+	border-radius: 1rem;
+	transition: all ease 0.3s;
+}
+
+.navegacion__link--cv:hover {
+	transform: scale(1.2);
+	background-color: var(--verde-secundario);
+}
+
+/* Saludo */
+
+.imagen__hero {
+	background-image: url(./img/hero_2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 60rem;
+	color: var(--verde-secundario);
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.typing-animation {
+	font-size: 3rem;
+	font-weight: bold;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: center;
+}
+
+.typing-animation__text {
+	animation: typing 3s steps(40, end);
+	animation-iteration-count: infinite;
+	color: var(--verde-complementario);
+	/* margin-top: -10rem; */
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+/* Sobre mi */
+
+.sobremi {
+	/* margin-top: 20rem; */
+	height: 60rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.sobremi__titulo {
+	text-align: center;
+	font-size: 5rem;
+	margin: 0;
+	/* margin-top: 5rem; */
+}
+
+.contenedor__sobremi {
+	margin-top: 6rem;
+	display: flex;
+	/* flex-direction: column; */
+	align-items: center;
+}
+
+.sobremi__imagen {
+	/* margin-top: 3rem; */
+	width: 25rem;
+	border-radius: 3rem;
+	border: 3px solid var(--verde-principal);
+}
+
+/* Habilidades y Tecnoligias */
+
+.skills {
+	margin-top: 7rem;
+	height: 60rem;
+}
+
+.skills__titulo {
+	text-align: center;
+	font-size: 5rem;
+	margin: 0;
+}
+
+.skills__descripcion {
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.skills__grid {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	gap: 3rem;
+	margin-top: 5rem;
+	justify-items: center;
+	/* align-items: center; */
+	text-align: center;
+}
+.skills__svg {
+	width: 10rem;
+	/* height: 10rem; */
+	padding: 2rem;
+}
+
+.skills__herramientas {
+	transition: all ease 0.3s;
+	font-weight: 600;
+}
+
+.skills__herramientas:hover {
+	background-color: var(--verde-principal);
+	border-radius: 1rem;
+	color: var(--negro-complementario);
+}
