@@ -169,6 +169,27 @@ div [id] {
 	}
 }
 
+/* Scrollbar */
+
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #038554 #050505;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 0.6rem;
+}
+
+*::-webkit-scrollbar-track {
+	background: #101010;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #038554;
+	border-radius: 0.5rem;
+}
+
 /* Sobre mi */
 
 .sobremi {
