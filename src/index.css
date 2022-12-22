@@ -43,6 +43,14 @@ div [id] {
 	scroll-margin-top: 8rem;
 }
 
+.swal2-image {
+	max-width: none;
+}
+
+.swal2-popup {
+	width: 85em !important;
+}
+
 /* Navegacion */
 
 .contenedor__header {
@@ -249,10 +257,79 @@ div [id] {
 	color: var(--verde-principal);
 	background-color: var(--negro-complementario);
 	transition: all ease 0.3s;
+	cursor: pointer;
 }
 
 .portafolio__boton:hover {
 	border: 2px solid var(--negro-complementario);
 	color: var(--negro-complementario);
 	background-color: var(--verde-principal);
+}
+
+/* Certificados */
+
+.certificado {
+	margin-top: 2rem;
+	height: 60rem;
+}
+
+.certificado__titulo {
+	text-align: center;
+	font-size: 5rem;
+	margin: 0;
+}
+
+.certificado__descripcion {
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.certificado__grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 2rem;
+	justify-items: center;
+	margin-top: 2rem;
+}
+
+.certificado__contenido {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.certificado__imagen {
+	width: 20rem;
+	height: 15rem;
+	border-radius: 1rem;
+}
+
+.certificado__boton {
+	display: block;
+	width: 100%;
+	font-weight: 600;
+	margin-top: 1rem;
+	padding: 1rem;
+	border: 2px solid var(--verde-principal);
+	border-radius: 1rem;
+	color: var(--verde-principal);
+	background-color: var(--negro-complementario);
+	transition: all ease 0.3s;
+	cursor: pointer;
+}
+
+.certificado__boton:hover {
+	border: 2px solid var(--negro-complementario);
+	color: var(--negro-complementario);
+	background-color: var(--verde-principal);
+}
+
+/* Contacto */
+
+.contenedor__footer {
+	text-align: center;
+	/* margin-top: 2rem; */
+	padding: 1rem 0;
+	background-color: var(--negro-complementario);
+	width: 100%;
 }

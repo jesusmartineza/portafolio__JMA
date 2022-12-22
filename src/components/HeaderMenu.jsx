@@ -13,7 +13,7 @@ export const HeaderMenu = () => {
 			<a href='#portafolio' className='navegacion__link'>
 				Portafolio
 			</a>
-			<a href='#' className='navegacion__link'>
+			<a href='#certificado' className='navegacion__link'>
 				Certificados
 			</a>
 			<a
