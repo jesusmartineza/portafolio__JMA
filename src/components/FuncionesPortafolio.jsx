@@ -34,8 +34,8 @@ export function proGifs() {
 
 export function proCripto() {
 	Swal.fire({
-		titleText: 'Encriptador de Textos (No Responsive)',
-		html: '<h3> Alguna vez haz querido decir algo pero que nadie sepa, pues aqui tienes un encriptador para que desde ahora nadie sepa los mensajes que mandas. (Html, Css, Javascript) </h3>',
+		titleText: 'Cotizador de Criptomonedas (Responsive)',
+		html: '<h3> Te interesa el mundo de la criptomonedas y te gustaria invertir o comprar pues aqui tienes una pagina para poder saber datos importantes sobre tu criptomoneda favorita (React, vite, styled-components y api de criptomonedas ) </h3>',
 		showCloseButton: true,
 		showCancelButton: true,
 		focusConfirm: false,

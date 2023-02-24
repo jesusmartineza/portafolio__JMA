@@ -53,7 +53,7 @@ export const MainPortafolio = () => {
 					</button>
 				</div>
 				<div className='portafolio__proyecto'>
-					<p className='portafolio__subtitulo'>Encriptador de Textos</p>
+					<p className='portafolio__subtitulo'>Cotizador de Criptomonedas</p>
 					<img
 						src={cripto}
 						alt='Imagen proyecto'
