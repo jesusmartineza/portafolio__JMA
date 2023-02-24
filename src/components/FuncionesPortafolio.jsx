@@ -32,7 +32,7 @@ export function proGifs() {
 	});
 }
 
-export function proEncriptador() {
+export function proCripto() {
 	Swal.fire({
 		titleText: 'Encriptador de Textos (No Responsive)',
 		html: '<h3> Alguna vez haz querido decir algo pero que nadie sepa, pues aqui tienes un encriptador para que desde ahora nadie sepa los mensajes que mandas. (Html, Css, Javascript) </h3>',
@@ -40,10 +40,10 @@ export function proEncriptador() {
 		showCancelButton: true,
 		focusConfirm: false,
 		confirmButtonText:
-			'<i class="fa fa-thumbs-up"></i> <a href="https://jesusmartineza.github.io/Encriptador-de-textos/" target="_blank" >Ver Proyecto</a>',
+			'<i class="fa fa-thumbs-up"></i> <a href="https://criptomonedas-react-jma.netlify.app/" target="_blank" >Ver Proyecto</a>',
 		confirmButtonColor: '#038554',
 		cancelButtonText:
-			'<i class="fa fa-thumbs-down"></i> <a href="https://github.com/jesusmartineza/Encriptador-de-textos" target="_blank" >Ver GitHub</a> ',
+			'<i class="fa fa-thumbs-down"></i> <a href="https://github.com/jesusmartineza/cotizador_criptomonedas_react" target="_blank" >Ver GitHub</a> ',
 		cancelButtonColor: '#101010',
 	});
 }

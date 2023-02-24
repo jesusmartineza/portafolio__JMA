@@ -374,7 +374,7 @@ div [id] {
 .portafolio__imagen {
 	width: 25rem;
 	border-radius: 1rem;
-	/* height: 20rem; */
+	height: 12rem;
 }
 
 .portafolio__subtitulo {

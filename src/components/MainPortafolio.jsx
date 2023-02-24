@@ -1,6 +1,7 @@
 import veterinaria from '../img/veterinaria__react.png';
 import gifs from '../img/gifs__react.png';
-import encriptador from '../img/encriptador__js.png';
+// import encriptador from '../img/encriptador__js.png';
+import cripto from '../img/criptos_react.png';
 import ahorcado from '../img/ahorcado__js.png';
 import blackjack from '../img/blackjack__js.png';
 import nucleus from '../img/nucleus__html.png';
@@ -12,7 +13,7 @@ import festival from '../img/festival__html_js.png';
 import {
 	proVeterinaria,
 	proGifs,
-	proEncriptador,
+	proCripto,
 	proAhorcado,
 	proBlackJack,
 	proNucleus,
@@ -54,15 +55,11 @@ export const MainPortafolio = () => {
 				<div className='portafolio__proyecto'>
 					<p className='portafolio__subtitulo'>Encriptador de Textos</p>
 					<img
-						src={encriptador}
+						src={cripto}
 						alt='Imagen proyecto'
 						className='portafolio__imagen'
 					/>
-					<button
-						type='button'
-						onClick={proEncriptador}
-						className='portafolio__boton'
-					>
+					<button type='button' onClick={proCripto} className='portafolio__boton'>
 						Mas Información
 					</button>
 				</div>
