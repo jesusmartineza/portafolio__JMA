@@ -123,7 +123,7 @@ export function proFestival() {
 			'<i class="fa fa-thumbs-up"></i> <a href="https://festival-musica-v2.netlify.app" target="_blank" >Ver Proyecto</a>',
 		confirmButtonColor: '#038554',
 		cancelButtonText:
-			'<i class="fa fa-thumbs-down"></i> <a href="https://github.com/jesusmartineza/Festival-Musica_V2" target="_blank" >Ver GitHub</a> ',
+			'<i class="fa fa-thumbs-down"></i> <a href="https://github.com/jesusmartineza/Festival_Musica_V2" target="_blank" >Ver GitHub</a> ',
 		cancelButtonColor: '#101010',
 	});
 }
