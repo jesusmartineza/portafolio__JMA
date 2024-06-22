@@ -115,15 +115,15 @@ export function proMuebles() {
 export function proFestival() {
 	Swal.fire({
 		titleText: 'Festival de Música (Responsive)',
-		html: '<h3> Los mejores artistas del Rock y la Electronica por primera vez juntos en un festival, quieres saber a que hora y dia estara tu artista favorito checalo en nuestra pagina. (Html, Css, Sass, Gulp, Javascript, SEO) </h3>',
+		html: '<h3> Los mejores artistas del Rock y la Electronica por primera vez juntos en un festival, quieres saber a que hora y dia estara tu artista favorito checalo en nuestra pagina. (Html, Css, Sass, Gulp, Javascript, SEO, Performance) </h3>',
 		showCloseButton: true,
 		showCancelButton: true,
 		focusConfirm: false,
 		confirmButtonText:
-			'<i class="fa fa-thumbs-up"></i> <a href="https://festival-musica-responsive.netlify.app/" target="_blank" >Ver Proyecto</a>',
+			'<i class="fa fa-thumbs-up"></i> <a href="https://festival-musica-v2.netlify.app" target="_blank" >Ver Proyecto</a>',
 		confirmButtonColor: '#038554',
 		cancelButtonText:
-			'<i class="fa fa-thumbs-down"></i> <a href="https://github.com/jesusmartineza/Festival-Musica" target="_blank" >Ver GitHub</a> ',
+			'<i class="fa fa-thumbs-down"></i> <a href="https://github.com/jesusmartineza/Festival-Musica_V2" target="_blank" >Ver GitHub</a> ',
 		cancelButtonColor: '#101010',
 	});
 }
