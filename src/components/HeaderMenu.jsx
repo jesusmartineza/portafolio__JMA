@@ -17,7 +17,7 @@ export const HeaderMenu = () => {
 				Certificados
 			</a>
 			<a
-				href='https://drive.google.com/file/d/1b1kFOXSJiNNlAJbRJfi64CGw9-DefvPY/view?usp=sharing'
+				href='https://drive.google.com/file/d/1weSzLFP3bHZiYQ0LWl05xuQKIAi7gcPi/view?usp=sharing'
 				download='CV_JesusMartinezAyala.pdf'
 				className='navegacion__link navegacion__link--cv'
 				target='_blank'
